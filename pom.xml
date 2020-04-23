@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>PGLP_5.1</groupId>
-  <artifactId>PGLP5_1</artifactId>
+  <groupId>PGLP_5.2</groupId>
+  <artifactId>PGLP5_2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>PGLP5_1</name>
