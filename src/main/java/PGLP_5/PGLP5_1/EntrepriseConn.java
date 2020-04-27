@@ -14,11 +14,11 @@ public class EntrepriseConn {
 			
 				Class.forName(DRIVER);
 			
-				Connection connec =DriverManager.getConnection(JDBC_URL);
-				if (connec!=null)
+				Connection connect =DriverManager.getConnection(JDBC_URL);
+				if (connect!=null)
 				{
 					System.out.println("Connexion au serveur BD Reussi avec succes");
-					return connec;
+					return connect;
 				}
 		} catch (SQLException e )
 		{
@@ -34,4 +34,5 @@ public class EntrepriseConn {
 	
 	
 
-}
+	}
+	}

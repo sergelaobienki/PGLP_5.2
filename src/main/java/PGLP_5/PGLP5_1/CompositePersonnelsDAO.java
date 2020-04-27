@@ -1,7 +1,14 @@
 package PGLP_5.PGLP5_1;
 
+import java.sql.Connection;
+
 @SuppressWarnings("serial")
 public class CompositePersonnelsDAO extends DAO<CompositePersonnels>{
+
+	public CompositePersonnelsDAO(Connection conn) {
+		super(conn);
+		// TODO Auto-generated constructor stub
+	}
 
 	@Override
 	public CompositePersonnels create(CompositePersonnels obj) {
