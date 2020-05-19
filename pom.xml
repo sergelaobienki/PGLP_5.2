@@ -89,7 +89,10 @@
 				</plugin>
 			</plugins>
 		</pluginManagement>
-	</build>
+	
+    <defaultGoal>install</defaultGoal>
+    
+  </build>
 
 
 	<!-- =============================================================== -->
