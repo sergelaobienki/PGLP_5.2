@@ -33,7 +33,7 @@ public class PersonnelsDAO extends DAO<Personnels>{
 			} catch (Exception e) {
 				// TODO: handle exception
 			}
-			PreparedStatement prepare = connect.prepareStatement("INSERT INTO derby (nom, prenom, Id) VALUES (?,?,?) ");
+			PreparedStatement prepare = connect.prepareStatement("INSERT INTO derby (Nom, Prenom, Id) VALUES (?,?,?) ");
 			prepare.setString(1, obj.getNom());
 			prepare.setString(2, obj.getPrenom());
 			prepare.setInt(3, obj.getId());
